@@ -5,34 +5,33 @@
 
 @media (min-width: 769px) {
 
-  .main-nav,
-  .main-header,
-.row{
-    display:flex;
-}
+      .main-nav,
+      .main-header,
+    .row{
+        display:flex;
+        flex-flow: row wrap;
+    }
 
-  .main-header{
-    flex-direction:column;
-    align-items:center;
- }
-	
-   .col{
-  flex: 1;
-}
+      .main-header{
+        flex-direction:row;
+        align-items:center;
+     }
+    	
+       .col{
+      flex: 100%;
+    }
 
-.primary {
-  flex:2;
-  }
-  
+/*    .primary{
+      flex:1;
+      }*/
+ } 
 
-}
 
 @media (min-width: 1025px) {
 
-  .main-header{
-    flex-direction:row;
-    justify-content:space-between;  
-}
-
+      .main-header{
+        flex-direction:row;
+        justify-content:space-between;  
+    }
 
 }

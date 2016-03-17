@@ -17,9 +17,8 @@
 		<title>Alexandria P. Sweatt - APS</title>
 		<link href='https://fonts.googleapis.com/css?family=Great+Vibes|Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/flexbox.css">
 		<link rel="stylesheet" href="css/styles.css">
-
+		<link rel="stylesheet" href="css/flexbox.css">
 	</head>
 	<body>
 		<header>
@@ -27,8 +26,9 @@
 			<ul class="main-nav">
 				<li><a href="#">Home</a></li>
 				<li><a href="#">Alexandria</a></li>
-				<li><a href="#">Career</a></li>
+				<li><a href="#">Video</a></li>
 				<li><a href="#">Photos</a></li>
+				<li><a href="#">Career</a></li>
 				<li><a href="#">News</a></li>
 				<li><a href="#">Contact Me</a></li>	
 			</ul>
@@ -36,37 +36,57 @@
 		
 		<div class="banner">
 			<img class="logo" src="img/aps-f.png" align="left" alt="Headshot">
-			<h1 class="headline">Alexandria P. Sweatt</h1>
+			<h1 class="headline">I Am Alexandria P. Sweatt</h1>
 <!-- 			<span class="tagline">I AM ALEXANDIA</span> -->
 		</div><!-- -----.banner-------- -->
 
-		<div class="row">
+		<div class="row"><!-- ----------parent--------- -->
 			<div class="primary col">
 				<h1 class="name">Alexandria P. Sweatt</h1>
 				<p>
 					Actress, Singer, Dancer, Artist! Loving Life, Loving The Lord, Friends and Family.  Simply being me.
 				</p>
-			</div> <!-- .primary col -->
-		<!-- Carousel -->
-			<div id="gallery">
-				<figure id="spinner">
-					<img src="img/hs(1).jpg" alt="Headshot of APS">
-					<img src="img/hs(2).jpg" alt="Headshot of APS">
-					<img src="img/hs(3).jpg" alt="Headshot of APS">
-					<img src="img/hs(4).jpg" alt="Headshot of APS">
-					<img src="img/hs(5).jpg" alt="Headshot of APS">
-					<img src="img/hs(6).jpg" alt="Headshot of APS">
-					<img src="img/hs(7).jpg" alt="Headshot of APS">
-					<img src="img/hs(8).jpg" alt="Headshot of APS">
-					<img src="img/hs(9).jpg" alt="Headshot of APS">
-				</figure>
-				<a href="#" style="float: left" onclick="galleryspin('-')">&lt;</a>
-				<a href="#" style="float: right" onclick="galleryspin('')">&gt;</a>
-			</div>
+			
+			</div> <!-- .primary col -->		
+
+		<div class="secondary col">
+			<!-- Carousel -->
+					<div id="gallery">
+
+	
+						<figure id="spinner">
+							
+							<img src="img/hs(1).jpg" alt="Headshot of APS">
+							<img src="img/hs(2).jpg" alt="Headshot of APS">
+							<img src="img/hs(3).jpg" alt="Headshot of APS">
+							<img src="img/hs(4).jpg" alt="Headshot of APS">
+							<img src="img/hs(5).jpg" alt="Headshot of APS">
+							<img src="img/hs(6).jpg" alt="Headshot of APS">
+							<img src="img/hs(7).jpg" alt="Headshot of APS">
+							<img src="img/hs(8).jpg" alt="Headshot of APS">
+						</figure>
+
+						<a style="float:left;padding:0 5px 0 0" onclick="galleryspin('-')">
+					
+								<img src="img/arrowleft.png" alt="Left Arrow">
+					
+						</a>
+						<a style="float: right" onclick="galleryspin('')">
+
+						<img src="img/arrowright.png" alt="Right Arrow">
+						
+						</a>
+
+					</div>
+		
+	<!-- -------Control buttons-------- -->
+				
+					
+		</div><!-- secondary col -->
 		</div> <!-- .row -->
 
 
 	</body>
 <!-- script -->
-<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="script.js"></script>
 </html>
