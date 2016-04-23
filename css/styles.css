@@ -98,8 +98,8 @@ img {
 /* ---- Page Elements ---- */
 
 .logo {
-	width: calc(50% - 1.5em);
-	height: 100%;
+	width: calc(45% - 1.5em);
+	height: 75%;
 }
 .headline {
 	margin-bottom: 0;
